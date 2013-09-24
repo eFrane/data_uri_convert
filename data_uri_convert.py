@@ -46,7 +46,7 @@ def binarycontent(filename):
     return content
 
 def main():
-    parser = argparse.ArgumentParser(description='Convert binary data to data URIs')
+    parser = argparse.ArgumentParser(description='Convert files to data URIs')
     parser.add_argument('inputfile', help='the file to convert')
 
     args = parser.parse_args()

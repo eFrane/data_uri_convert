@@ -13,7 +13,7 @@ or (after typing `make`):
 
 ##notes
 
-- depends on python2
+- depends on python 3
 - make installs to /usr/local unless you specify a different prefix,
 e.g. `make -DPREFIX='/your/prefix'`
 
